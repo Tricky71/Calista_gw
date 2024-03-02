@@ -1,0 +1,36 @@
+
+
+.swiper-slide {
+  height: auto;
+  margin: 0 auto;
+  transition: 1s;
+  opacity: .4;
+}
+
+.swiper-slide.swiper-slide-active {
+  transition: 1s;
+  // transform: scale(1.2);
+  opacity: 1;
+}
+// .slick-current.slick-center {
+//   transform: scale(1.4);
+// }
+// .slick-slide {
+//   transform: scale(0.8);
+// }
+
+@media (min-width: 968px) {
+  .swiper-wrapper {
+    // padding: 100px 0;
+  }
+
+  .swiper-wrapper .swiper-slide {
+    transform: scale(0.7);
+  }
+  .swiper-slide.swiper-slide-active {
+    // transition: 1s;
+    transform: scale(1);
+    // opacity: 1;
+  }
+}
+

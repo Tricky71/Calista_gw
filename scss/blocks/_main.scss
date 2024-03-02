@@ -1,0 +1,19 @@
+.main-header {
+  padding: 20px 0 20px;
+}
+
+.main-image-block {
+  margin-bottom: 40px;
+}
+
+@media(min-width: 600px) {
+  .main-header {
+    padding: 2.3vw 0 2.3vw;
+  }
+}
+
+@media(min-width: 968px) {
+  .main-image-block {
+    margin-bottom: 10.7vw;
+  }
+}
